@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Local data / model artifacts
+*.pkl
+*.joblib
+*.parquet
+*.feather
+models/
+artifacts/
+outputs/
+
+# Never commit client/company proprietary exports
+client_data/
+company_data/
